@@ -1,5 +1,6 @@
-package com.glovoapp.backender;
+package com.glovoapp.backender.repositories;
 
+import com.glovoapp.backender.models.Courier;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.stereotype.Component;
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-class CourierRepository {
+public class CourierRepository {
     private static final String COURIERS_FILE = "/couriers.json";
     private static final List<Courier> couriers;
 

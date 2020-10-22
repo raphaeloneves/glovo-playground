@@ -1,4 +1,7 @@
-package com.glovoapp.backender;
+package com.glovoapp.backender.calculators;
+
+
+import com.glovoapp.backender.models.Location;
 
 import static java.lang.Math.*;
 
