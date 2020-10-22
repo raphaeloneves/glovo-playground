@@ -27,7 +27,7 @@ public class OrderRepository {
         }
     }
 
-    List<Order> findAll() {
+    public List<Order> findAll() {
         return new ArrayList<>(orders);
     }
 }
