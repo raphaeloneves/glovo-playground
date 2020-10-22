@@ -1,5 +1,7 @@
-package com.glovoapp.backender;
+package com.glovoapp.backender.calculators;
 
+import com.glovoapp.backender.calculators.DistanceCalculator;
+import com.glovoapp.backender.models.Location;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
